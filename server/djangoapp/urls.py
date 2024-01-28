@@ -16,6 +16,7 @@ urlpatterns = [
     # path for contact us view
      path(route='contact', view=views.contact, name='.../djangoapp/contact'),
     # path for registration
+    path('registration/', view = views.registration_request, name='/djangoapp/registration'),
 
     # path for login
     path(route ='login', view =  views.login_request, name='/djangoapp/login'),
